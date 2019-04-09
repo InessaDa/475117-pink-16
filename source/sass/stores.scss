@@ -1,0 +1,34 @@
+.stores {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1px;
+  margin-top: -5px;
+  background-color: #283645;
+}
+
+.stores__button {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 28px;
+  margin-right: 20px;
+  padding-left: 34px;
+  padding-top: 17px;
+  padding-right: 34px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+}
+
+.stores__title {
+  margin: 30px;
+  margin-top: 85px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+}
