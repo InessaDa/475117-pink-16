@@ -1,0 +1,27 @@
+.offers-list {
+  @include list-reset;
+  padding-bottom: 320px;
+  background-color: #f2f2f2;
+  background-image: url(../img/iphone-screen-mobile@1x.png);
+  background-repeat: no-repeat;
+  background-position: 83px 522px;
+}
+
+.offers-list__item--title {
+  padding-top: 37px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.offers-list__item--text {
+  padding-left: 31px;
+  padding-right: 31px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283645;
+  text-align: center;
+}
