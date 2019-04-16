@@ -67,3 +67,16 @@
   border: 2px solid #e9ebec;
   border-radius: 50%;
 }
+
+@media (min-width: $tablet-width) {
+  .social-list {
+    top: 195px;
+    left: -139px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+  .social-list {
+    left: 92px;
+  }
+}

@@ -1,0 +1,20 @@
+.second-segment-wrapper {
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .second-segment-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(../img/bg-back-tablet@1x.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .second-segment-wrapper {
+    background-image: url(../img/bg-back-desktop@1x.jpg);
+    background-repeat: no-repeat;
+  }
+}

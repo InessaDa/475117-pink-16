@@ -5,3 +5,12 @@
   text-transform: uppercase;
   color: white;
 }
+
+@media (min-width: $desktop-width) {
+  .navigation-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: none;
+  }
+}

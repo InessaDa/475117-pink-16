@@ -10,3 +10,16 @@
   border-bottom: 1px solid #000000;
 }
 
+@media (min-width: $desktop-width) {
+  .navigation-list {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .navigation-list__item {
+    padding-left: 80px;
+    border: none;
+  }
+}
+
