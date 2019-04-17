@@ -1,7 +1,7 @@
 .users-photo {
   padding: 0;
+  padding-bottom: 20px;
   margin-left: 20px;
-  margin-top: 0;
   margin-right: 20px;
   margin-bottom: 0;
 }
@@ -14,7 +14,7 @@
 
 .users-photo__description {
   padding-left: 17px;
-  background-color: #f2f2f2;
+  background-color: $light-grey;
 }
 
 .users-photo__description--title {
@@ -22,21 +22,21 @@
   font-size: 12px;
   line-height: 24px;
   font-weight: 700;
-  color: #283645;
+  color: $dark-grey;
 }
 
 .users-photo__description--time {
   font-size: 12px;
   line-height: 24px;
   font-weight: 300;
-  color: #283645;
+  color: $dark-grey;
 }
 
 .users-photo__description--text {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  color: #283645;
+  color: $dark-grey;
 }
 
 .users-photo__description--likes {
@@ -46,5 +46,26 @@
   line-height: 24px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #d22856;
+  color: $fuchsia;
+}
+
+@media (min-width: $tablet-width) {
+  .users-photo__description {
+    position: relative;
+    padding-bottom: 20px;
+    width: 264px;
+    min-height: 135px;
+  }
+
+  .users-photo__description--likes {
+    position: absolute;
+    top: 120px;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .users-photo {
+    padding-bottom: 54px;
+  }
 }

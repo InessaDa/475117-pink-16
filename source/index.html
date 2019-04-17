@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+   <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="body">
+    <div class="content-container">
      <header class="header main-header">
        <div class="caption-wrapper">
        <h1 class="title main-title">Pink</h1>
@@ -20,10 +23,10 @@
              <a href="#" class="link navigation-link">Главная</a>
             </li>
            <li class="navigation-list__item">
-             <a href="#" class="link navigation-link">Фотографии</a>
+             <a href="photo.html" class="link navigation-link">Фотографии</a>
            </li>
            <li class="navigation-list__item">
-             <a href="#" class="link navigation-link">Конкурс</a>
+             <a href="form.html" class="link navigation-link">Конкурс</a>
            </li>
            <li class="navigation-list__item">
              <a class="link navigation-link" href="https://up.htmlacademy.ru/adaptive/16">Html Academy</a>
@@ -32,8 +35,10 @@
        </nav>
      </header>
      <main class="page main-page">
-       <img class="image pink-phone-image" src="img/iphone-hand-mobile@1x.png" width="259px" height="288px" alt="телефон с приложением пинк">
+       <div class="second-segment-wrapper">
+       <img class="image pink-phone-image" src="img/iphone-hand-mobile@1x.png" width="259" height="288" alt="телефон с приложением пинк">
      <div class="stores">
+       <h2 class="stores__caption">Взгляните на жизнь иначе!</h2>
        <a href="#" class="link button stores__button">Скачать приложение</a>
        <ul class="stores-list">
          <li class="stores-list__item">
@@ -54,9 +59,10 @@
        </ul>
        <p class="stores__title">Мы доступны для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
      </div>
+    </div>
      <div class="offers">
        <p class="offers__title--question">Устали от серости мегаполиса?</p>
-       <p class="offers__title--answer">Нам есть что вам предложить!</p>
+       <p class="offers__title--answer">Нам есть, что вам предложить!</p>
        <ul class="offers-list">
          <li class="offers-list__item">
            <h3 class="offers-list__item--title">Поднимает настроение</h3>
@@ -72,6 +78,29 @@
           </li>
        </ul>
      </div>
+        <span class="effect-article__advertising">24</span>
+     <article class="effect-article">
+       <h3 class="effect-article__title">Эффект на 24 часа!</h3>
+       <p class="effect-article__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+       <a href="#" class="link effect-article__link">Узнать больше об исследовании</a>
+     </article>
     </main>
+    <footer class="footer main-footer">
+        <h2 class="footer__title inner-footer__title">Pink</h2>
+        <img class="inner-footer__logo" src="img/logo-pink-blue-mobile.svg" width="149" height="41" alt="логотип приложения Пинк">
+        <ul class="social-list">
+          <li class="social-list__item social-list__item--twitter">
+            Ссылка на нас в Twitter
+          </li>
+          <li class="social-list__item social-list__item--fb">
+              Ссылка на нас в Facebook
+            </li>
+            <li class="social-list__item social-list__item--youtube">
+              Ссылка на нас на Youtube
+              </li>
+        </ul>
+        <a href="#" class="link dev-link">Разработано</a>
+      </footer>
+    </div>
   </body>
 </html>

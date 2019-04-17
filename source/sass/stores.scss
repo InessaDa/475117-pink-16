@@ -3,7 +3,11 @@
   padding: 0;
   padding-bottom: 1px;
   margin-top: -5px;
-  background-color: #283645;
+  background-color: $dark-grey;
+}
+
+.stores__caption {
+  display: none;
 }
 
 .stores__button {
@@ -31,4 +35,28 @@
   line-height: 24px;
   font-weight: 300;
   color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .stores {
+    background: none;
+  }
+  .stores__caption {
+    display: block;
+    padding-left: 55px;
+    padding-top: 99px;
+    padding-right: 77px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .stores {
+    padding-left: 130px;
+    padding-right: 406px;
+  }
 }

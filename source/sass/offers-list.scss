@@ -25,3 +25,46 @@
   color: #283645;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .offers-list {
+    padding-left: 330px;
+    padding-bottom: 55px;
+    background-image: url(../img/iphone-screen-3-tablet@1x.png);
+    background-position: 20px 2px;
+  }
+
+  .offers-list__item--title {
+    text-align: left;
+  }
+
+  .offers-list__item--text {
+    padding-left: 0;
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .offers-list {
+    display: flex;
+    margin: 0;
+    padding-left: 160px;
+    padding-top: 260px;
+    padding-right: 160px;
+    padding-bottom: 0;
+    background-image: url(../img/iphone-screen-3-desktop@1x.png);
+    background-position: 756px 2px;
+  }
+
+  .offers-list__item--title {
+    padding-left: 65px;
+    padding-right: 65px;
+    text-align: center;
+  }
+
+  .offers-list__item--text {
+    padding-left: 49px;
+    padding-right: 46px;
+    text-align: center;
+  }
+}

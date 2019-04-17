@@ -1,5 +1,7 @@
 @import "mixins.scss";
+@import "variables.scss";
 @import "body.scss";
+@import "content-container.scss";
 @import "link.scss";
 @import "header.scss";
 @import "main-title.scss";
@@ -9,13 +11,14 @@
 @import "navigation-list.scss";
 @import "navigation-link.scss";
 @import "page.scss";
-@import "main-page.scss";
+@import "second-segment-wrapper.scss";
 @import "pink-phone-image.scss";
 @import "close-button.scss";
 @import "stores.scss";
 @import "stores-list.scss";
 @import "offers.scss";
 @import "offers-list";
+@import "effect-article.scss";
 @import "inner-footer";
 @import "social-list";
 @import "dev-link";
@@ -24,3 +27,5 @@
 @import "photos-list.scss";
 @import "users-photo.scss";
 @import "panorama.scss";
+@import "footer.scss";
+@import "main-footer.scss";

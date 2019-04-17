@@ -6,7 +6,26 @@
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
-  color: #283645;
+  color: $dark-grey;
   text-align: center;
   background-color: white;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-preface-text {
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 106px;
+    padding-bottom: 85px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-preface-text {
+    padding-left: 315px;
+    padding-top: 100px;
+    padding-right: 315px;
+    padding-bottom: 90px;
+  }
 }
