@@ -1,12 +1,16 @@
 .offers-list {
-  @include list-reset;
+@include list-reset;
   padding-bottom: 320px;
   background-color: #f2f2f2;
   background-image: url(../img/iphone-screen-mobile@1x.png);
   background-repeat: no-repeat;
   background-position: 83px 522px;
 }
-
+.offers-list__top-triangle {
+  position: absolute;
+  width: 320px;
+  top: 1236px;
+}
 .offers-list__item--title {
   padding-top: 37px;
   font-size: 18px;
@@ -34,6 +38,11 @@
     background-position: 20px 2px;
   }
 
+  .offers-list__top-triangle {
+    width: 660px;
+    top: 1179px;
+  }
+
   .offers-list__item--title {
     text-align: left;
   }
@@ -49,12 +58,35 @@
     display: flex;
     margin: 0;
     padding-left: 160px;
-    padding-top: 260px;
+    padding-top: 12px;
     padding-right: 160px;
     padding-bottom: 0;
-    background-image: url(../img/iphone-screen-3-desktop@1x.png);
-    background-position: 756px 2px;
+    background-image: none;
   }
+
+  .offers-list__top-triangle {
+    width: 1200px;
+    top: 1121px;
+  }
+
+  .offers-list__item:first-child {
+    padding-top: 280px;
+    background-image: url(../img/iphone-screen-1-desktop@1x.png);
+    background-repeat: no-repeat;
+  }
+
+  .offers-list__item:nth-child(2) {
+    padding-top: 280px;
+    background-image: url(../img/iphone-screen-2-desktop@1x.png);
+    background-repeat: no-repeat;
+  }
+
+  .offers-list__item:nth-child(3) {
+    padding-top: 280px;
+    background-image: url(../img/iphone-screen-3-desktop@1x.png);
+    background-repeat: no-repeat;
+  }
+
 
   .offers-list__item--title {
     padding-left: 65px;

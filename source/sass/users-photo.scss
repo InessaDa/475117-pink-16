@@ -19,6 +19,7 @@
 
 .users-photo__description--title {
   margin: 0;
+  padding-top: 11px;
   font-size: 12px;
   line-height: 24px;
   font-weight: 700;
@@ -29,10 +30,13 @@
   font-size: 12px;
   line-height: 24px;
   font-weight: 300;
+  text-transform: uppercase;
   color: $dark-grey;
 }
 
 .users-photo__description--text {
+  margin: 0;
+  padding-top: 4px;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -42,6 +46,8 @@
 .users-photo__description--likes {
   margin: 0;
   padding-left: 50px;
+  padding-top:  19px;
+  padding-bottom: 19px;
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
@@ -57,9 +63,14 @@
     min-height: 135px;
   }
 
+  .users-photo__description--title {
+    margin: 0;
+    padding-top: 18px;
+  }
+
   .users-photo__description--likes {
     position: absolute;
-    top: 120px;
+    top: 91px;
     padding-left: 0;
   }
 }
