@@ -41,9 +41,10 @@
 
 @media (min-width: $tablet-width) {
   .stores {
+    position: static;
     right: 307px;
     top: -50px;
-    padding-left: 330px;
+    padding-right: 330px;
     padding-bottom: 200px;
     background: none;
   }
@@ -69,8 +70,9 @@
 
 @media (min-width: $desktop-width) {
   .stores {
-    padding-left: 471px;
-    padding-right: 406px;
+    padding-left: 133px;
+    padding-top: 67px;
+    padding-right: 729px;
   }
 
   .stores__title {
