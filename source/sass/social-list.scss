@@ -1,18 +1,18 @@
 .social-list {
   @include list-reset;
   display: flex;
-  position: relative;
+  margin-top: 79px;
   font-size: 0;
 }
 
 .social-list__icon--twitter {
   position: relative;
-  top: -106px;
-  left: 90px;
+  top: 4px;
+  left: -28px;
   fill: $fuchsia;
 }
 
-.social-list__item--twitter::after {
+/*.social-list__item--twitter::after {
   content: "";
   position: absolute;
   width: 50px;
@@ -21,16 +21,16 @@
   left: 72px;
   border: 2px solid $light-grey;
   border-radius: 50%;
-}
+}*/
 
 .social-list__icon--fb {
   position: relative;
-  top: -108px;
-  left: 139px;
+  top: 2px;
+  left: 5px;
   fill: $fuchsia;
 }
 
-.social-list__item--fb::after {
+/*.social-list__item--fb::after {
   content: "";
   position: absolute;
   width: 50px;
@@ -39,12 +39,12 @@
   left: 134px;
   border: 2px solid $light-grey;
   border-radius: 50%;
-}
+}*/
 
 .social-list__icon--yotube {
   position: relative;
-  top: -106px;
-  left: 194px;
+  top: 5px;
+  left: 42px;
   fill: $fuchsia;
 }
 
