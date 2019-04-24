@@ -12,16 +12,17 @@
   fill: $fuchsia;
 }
 
-/*.social-list__item--twitter::after {
+.social-list__item--twitter::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
-  top: -125px;
-  left: 72px;
+  top: -2px;
+  left: -64px;
+  padding: 25px;
   border: 2px solid $light-grey;
   border-radius: 50%;
-}*/
+}
 
 .social-list__icon--fb {
   position: relative;
@@ -30,16 +31,17 @@
   fill: $fuchsia;
 }
 
-/*.social-list__item--fb::after {
+.social-list__item--fb::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
-  top: -125px;
-  left: 134px;
+  top: -5px;
+  left: -26px;
+  padding: 25px;
   border: 2px solid $light-grey;
   border-radius: 50%;
-}*/
+}
 
 .social-list__icon--yotube {
   position: relative;
@@ -50,16 +52,17 @@
 
 .social-list__item--youtube::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
-  top: -125px;
-  left: 198px;
+  top: 0;
+  left: 6px;
+  padding: 25px;
   border: 2px solid $light-grey;
   border-radius: 50%;
 }
 
-@media (min-width: $tablet-width) {
+/*@media (min-width: $tablet-width) {
   .social-list {
     top: 195px;
     left: -139px;
@@ -69,5 +72,12 @@
 @media (min-width: $desktop-width) {
   .social-list {
     left: 92px;
+  }
+}
+*/
+@media (min-width: $desktop-width) {
+  .social-list {
+    margin-left: 207px;
+    margin-right: 207px;
   }
 }
