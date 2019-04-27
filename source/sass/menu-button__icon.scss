@@ -1,0 +1,33 @@
+.menu-button__icon {
+    position: relative;
+    top: -4px;
+    left: 150px;
+}
+
+.menu-button__icon--hidden {
+  display: none;
+}
+
+.menu-button__icon:hover,
+.menu-button__icon:focus {
+  path {
+    fill: $fuchsia;
+  }
+}
+
+.menu-button__icon:active {
+  opacity: 0.3;
+}
+
+
+@media (min-width: $tablet-width) {
+  .menu-button__icon {
+    left: 414px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .menu-button__icon {
+    display: none;
+  }
+}

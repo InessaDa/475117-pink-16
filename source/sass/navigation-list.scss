@@ -1,5 +1,15 @@
 .navigation-list {
   @include list-reset;
+    position: absolute;
+    top: 69px;
+    background-color: $dark-grey;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+}
+
+.navigation-list--hidden {
+  display: none;
 }
 
 .navigation-list__item{
@@ -10,16 +20,22 @@
   border-bottom: 1px solid #000000;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
   .navigation-list {
-    display: flex;
+    width: 660px;
+    top: 72px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .navigation-list {
+    position: static;
+    display: flex;
+    background-color: transparent;
+  }
   .navigation-list__item {
     margin-top: 21px;
-    padding-left: 80px;
+    padding-left: 70px;
     border: none;
   }
 }
