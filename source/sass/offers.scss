@@ -1,5 +1,5 @@
 .offers {
-  margin-top: 400px;
+  margin-top: 334px;
   font-size: 24px;
   font-weight: 300;
   color: $dark-grey;
@@ -33,14 +33,17 @@
 }
 
 @media (min-width: $desktop-width) {
+  .offers {
+    line-height: 63px;
+  }
   .offers__title--question {
-    margin-top: 180px;
+    margin-top: 1px;
     font-size: 50px;
   }
 
   .offers__title--answer {
     margin-left: 350px;
-    margin-top: 0;
+    margin-top: -4px;
     margin-right: 350px;
     font-size: 50px;
   }

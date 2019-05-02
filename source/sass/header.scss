@@ -1,10 +1,35 @@
 .header {
-  background-color: #283645;
+  background-color: $dark-grey;
+}
+
+.header--closed-menu {
+    background-color: $dark-grey;
+    background-blend-mode: overlay;
+    background-image: url(../img/bg-back-mobile@1x.jpg);
+    background-position-x: -640px;
+    background-position-y: 3px;
+  }
+
+.header-navigation--closed {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .header--closed-menu {
+    background-image: url(../img/bg-back-tablet@1x.jpg);
+    background-position-x: -270px;
+    background-position-y: -24px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .header {
     display: flex;
     justify-content: space-around;
+    background-color: $dark-grey;
+    background-blend-mode: overlay;
+    background-image: url(../img/bg-back-desktop@1x.jpg);
+    background-position-x: -677px;
+    background-position-y: 9px;
   }
 }

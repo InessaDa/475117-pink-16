@@ -1,62 +1,81 @@
 .social-list {
   @include list-reset;
   display: flex;
-  position: relative;
+  margin-top: 79px;
   font-size: 0;
 }
 
 .social-list__icon--twitter {
   position: relative;
-  top: -106px;
-  left: 90px;
+  top: 4px;
+  left: -28px;
   fill: $fuchsia;
 }
 
 .social-list__item--twitter::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
-  top: -125px;
-  left: 72px;
-  border: 2px solid $light-grey;
+  top: -2px;
+  left: -64px;
+  padding: 23px;
+  border: 3px solid $light-grey;
   border-radius: 50%;
+}
+
+.social-list__item--twitter:hover::after {
+  border: 3px solid $dark-grey;
+}
+
+.social-list__item--twitter:active::after {
+  opacity: 0.3;
 }
 
 .social-list__icon--fb {
   position: relative;
-  top: -108px;
-  left: 139px;
+  top: 2px;
+  left: -33px;
   fill: $fuchsia;
 }
 
 .social-list__item--fb::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
-  top: -125px;
-  left: 134px;
-  border: 2px solid $light-grey;
+  top: -5px;
+  left: -64px;
+  padding: 23px;
+  border: 3px solid $light-grey;
   border-radius: 50%;
+}
+
+.social-list__item--fb:hover::after {
+  border: 3px solid $dark-grey;
 }
 
 .social-list__icon--yotube {
   position: relative;
-  top: -106px;
-  left: 194px;
+  top: 5px;
+  left: -35px;
   fill: $fuchsia;
 }
 
 .social-list__item--youtube::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
-  top: -125px;
-  left: 198px;
-  border: 2px solid $light-grey;
+  top: 0;
+  left: -72px;
+  padding: 23px;
+  border: 3px solid $light-grey;
   border-radius: 50%;
+}
+
+.social-list__item--youtube:hover::after {
+  border: 3px solid $dark-grey;
 }
 
 @media (min-width: $tablet-width) {
@@ -68,6 +87,36 @@
 
 @media (min-width: $desktop-width) {
   .social-list {
-    left: 92px;
+    margin-left: 112px;
+    margin-right: 207px;
+    padding-right: 11px;
+  }
+
+  .social-list__icon--twitter {
+    top: 6px;
+    left: 52px;
+  }
+
+  .social-list__item--twitter::after {
+    left: 17px;
+    top: 0;
+  }
+
+  .social-list__icon--fb {
+    left: 50px;
+  }
+
+  .social-list__item--fb::after {
+    left: 20px;
+    top: -4px;
+  }
+
+  .social-list__icon--yotube {
+    left: 51px;
+  }
+
+  .social-list__item--youtube::after {
+    left: 15px;
+    top: 0;
   }
 }

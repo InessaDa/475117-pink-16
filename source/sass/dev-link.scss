@@ -16,20 +16,34 @@
   fill: $fuchsia;
 }
 
+.dev-link__icon:hover,
+.dev-link__icon:focus {
+  fill: $dark-grey;
+}
+
+.dev-link:visited {
+  fill: $light-grey;
+}
+
 @media (min-width: $tablet-width) {
   .dev-link {
-    top: 67px;
-    left: 149px;
+    top: 65px;
+    left: -27px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .dev-link {
-    left: 580px;
+    left: 25px;
     font-size: 18px;
   }
 
   .dev-link::before {
     left: 150px;
+  }
+
+  .dev-link__icon {
+    top: 12px;
+    left: 10px;
   }
 }
