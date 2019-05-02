@@ -3,3 +3,17 @@
   padding-top: 22px;
   padding-bottom: 25px;
 }
+
+.logo:hover,
+.logo:focus {
+  fill: $fuchsia;
+}
+
+
+@media (min-width: $desktop-width) {
+  .logo {
+    padding-left: 45px;
+    padding-top: 28px;
+    padding-bottom: 25px;
+  }
+}

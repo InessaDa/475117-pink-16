@@ -12,11 +12,13 @@
         <header class="header main-header">
             <div class="caption-wrapper">
             <h1 class="title main-title">Pink</h1>
+            <a href="index.html" class="link navigation-link">
             <picture>
             <source media="(min-width: 1200px)" srcset="img/logo-pink-white-desktop.svg">
             <source media="(min-width: 660px)" srcset="img/logo-pink-white-tablet.svg">
             <img class="logo" src="img/logo-pink-white-mobile.svg" alt="логотип приложения Пинк">
             </picture>
+            </a>
             <button type="button" class="button close-button">
             <svg class="close-button__icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
             <path fill="#FFFFFF" d="M15.087,11.933l8.56-8.559c0.293-0.293,0.293-0.768,0-1.061L21.554,0.22C21.414,0.079,21.223,0,21.023,0 c-0.199,0-0.391,0.079-0.529,0.22l-8.561,8.56l-8.56-8.56c-0.282-0.282-0.78-0.282-1.061,0L0.22,2.313 c-0.293,0.293-0.293,0.768,0,1.061l8.56,8.559l-8.56,8.559c-0.293,0.293-0.293,0.768,0,1.062l2.093,2.094 c0.141,0.142,0.331,0.22,0.53,0.22c0.199,0,0.39-0.078,0.53-0.22l8.561-8.56l8.56,8.56c0.141,0.142,0.332,0.22,0.53,0.22 c0.199,0,0.39-0.078,0.53-0.22l2.093-2.094c0.293-0.294,0.293-0.769,0-1.062L15.087,11.933z"/>
@@ -39,10 +41,10 @@
             <nav class="navigation header-navigation">
                 <ul class="navigation-list">
                   <li class="navigation-list__item">
-                    <a href="#" class="link navigation-link">Главная</a>
+                    <a href="index.html" class="link navigation-link">Главная</a>
                   </li>
                   <li class="navigation-list__item">
-                    <a href="photo.html" class="link navigation-link">Фотографии</a>
+                    <a href="#" class="link navigation-link">Фотографии</a>
                   </li>
                   <li class="navigation-list__item">
                     <a href="form.html" class="link navigation-link">Конкурс</a>
@@ -57,22 +59,28 @@
         <h2 class="title second-lvl-title">Фотографии пользователей</h2>
         <p class="text photo-preface-text">Взгляните на фотографии, которые выкладывают наши пользователи! Видите, как не хватает ваших?</p>
           <figure class="users-photo panorama">
-            <!--
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/panorama-desktop@1x.jpg">
+              <source media="(min-width: 660px)" srcset="img/panorama-tablet@1x.jpg">
             <img class="users-photo__image" src="img/panorama-mobile@1x.jpg" alt="фото загруженное пользователем">
-            -->
+            </picture>
             <figcaption class="users-photo__description panorama__description">
               <span class="panorama__flag">Панорама дня</span>
-              <p class="users-photo__description--title">Анна
-                <span class="users-photo__description--time">(5 минут назад)</span>
+              <p class="panorama__description--title">Анна
+                <span class="panorama__description--time">(5 минут назад)</span>
               </p>
-              <p class="users-photo__description--text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <p class="panorama__description--text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
               <p class="users-photo__description--likes">Нравится: 215</p>
             </figcaption>
           </figure>
         <ul class="photos-list">
           <li class="photos-list__item">
               <figure class="users-photo">
+                <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo-car-desktop@1x.jpg">
+                <source media="(min-width: 660px)" srcset="img/photo-car-tablet@1x.jpg">
                 <img class="users-photo__image" src="img/photo-car-mobile@1x.jpg" alt="фото загруженное пользователем">
+                </picture>
                 <figcaption class="users-photo__description">
                   <p class="users-photo__description--title">Левон
                       <span class="users-photo__description--time">(5 часов назад)</span>
@@ -84,7 +92,11 @@
           </li>
           <li class="photos-list__item">
               <figure class="users-photo">
+                <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo-drumset-desktop@1x.jpg">
+                <source media="(min-width: 660px)" srcset="img/photo-drumset-tablet@1x.jpg">
                 <img class="users-photo__image" src="img/photo-drumset-mobile@1x.jpg" alt="фото загруженное пользователем">
+                </picture>
                 <figcaption class="users-photo__description">
                   <p class="users-photo__description--title">Антон
                     <span class="users-photo__description--time">(12 часов назад)</span>
@@ -96,7 +108,11 @@
           </li>
           <li class="photos-list__item">
               <figure class="users-photo">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo-window-desktop@1x.jpg">
+                  <source media="(min-width: 660px)" srcset="img/photo-window-tablet@1x.jpg">
                 <img class="users-photo__image" src="img/photo-window-mobile@1x.jpg" alt="фото загруженное пользователем">
+                </picture>
                 <figcaption class="users-photo__description">
                   <p class="users-photo__description--title">Борис
                       <span class="users-photo__description--time">20 часов назад</span>
@@ -108,7 +124,11 @@
             </li>
             <li class="photos-list__item">
                 <figure class="users-photo">
+                  <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo-fair-desktop@1x.jpg">
+                  <source media="(min-width: 660px)" srcset="img/photo-fair-tablet@1x.jpg">
                   <img class="users-photo__image" src="img/photo-fair-mobile@1x.jpg" alt="фото загруженное пользователем">
+                  </picture>
                   <figcaption class="users-photo__description">
                     <p class="users-photo__description--title">Сергей</p>
                         <span class="users-photo__description--text">Самая кубанская в мире!</span>
@@ -118,7 +138,11 @@
             </li>
             <li class="photos-list__item">
                 <figure class="users-photo">
+                  <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo-pov-desktop@1x.jpg">
+                  <source media="(min-width: 660px)" srcset="img/photo-pov-tablet@1x.jpg">
                   <img class="users-photo__image" src="img/photo-pov-mobile@1x.jpg" alt="фото загруженное пользователем">
+                  </picture>
                   <figcaption class="users-photo__description">
                     <p class="users-photo__description--title">Максим
                       <span class="users-photo__description--time">(40 часов назад)</span>
@@ -130,7 +154,11 @@
             </li>
             <li class="photos-list__item">
                 <figure class="users-photo">
+                  <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo-wing-desktop@1x.jpg">
+                  <source media="(min-width: 660px)" srcset="img/photo-wing-tablet@1x.jpg">
                   <img class="users-photo__image" src="img/photo-wing-mobile@1x.jpg" alt="фото загруженное пользователем">
+                  </picture>
                   <figcaption class="users-photo__description">
                     <p class="users-photo__description--title">Надежда
                         <span class="users-photo__description--time">(45 часов назад)</span>

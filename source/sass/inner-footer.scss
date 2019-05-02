@@ -3,7 +3,19 @@
 }
 
 .inner-footer__logo {
-  margin-left: 86px;
-  margin-top: 64px;
+  margin-top: 63px;
   margin-right: 86px;
-}
+ }
+
+ @media (min-width: $tablet-width) {
+   .inner-footer__logo {
+    margin-left: 43px;
+   }
+ }
+
+ @media (min-width: $desktop-width) {
+   .inner-footer__logo {
+    margin-left: 130px;
+   }
+ }
+

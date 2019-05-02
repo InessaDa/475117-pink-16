@@ -14,6 +14,13 @@
   display: none;
 }
 
+@media (min-width: $tablet-width) {
+  .header--closed-menu {
+    background-image: url(../img/bg-back-tablet@1x.jpg);
+    background-position-x: -270px;
+    background-position-y: -24px;
+  }
+}
 
 @media (min-width: $desktop-width) {
   .header {
@@ -22,7 +29,7 @@
     background-color: $dark-grey;
     background-blend-mode: overlay;
     background-image: url(../img/bg-back-desktop@1x.jpg);
-    background-position-x: -671px;
+    background-position-x: -677px;
     background-position-y: 9px;
   }
 }

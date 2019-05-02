@@ -34,8 +34,12 @@
     background-color: transparent;
   }
   .navigation-list__item {
-    margin-top: 21px;
-    padding-left: 70px;
+    margin-top: 29px;
+    padding-right: 79px;
     border: none;
+  }
+
+  .navigation-list__item:last-child {
+    padding-right: 0;
   }
 }

@@ -16,6 +16,15 @@
   fill: $fuchsia;
 }
 
+.dev-link__icon:hover,
+.dev-link__icon:focus {
+  fill: $dark-grey;
+}
+
+.dev-link:visited {
+  fill: $light-grey;
+}
+
 @media (min-width: $tablet-width) {
   .dev-link {
     top: 65px;
@@ -31,5 +40,10 @@
 
   .dev-link::before {
     left: 150px;
+  }
+
+  .dev-link__icon {
+    top: 12px;
+    left: 10px;
   }
 }
