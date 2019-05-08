@@ -6,9 +6,8 @@
 
 .close-button__icon {
   position: relative;
-  top: -3px;
-  right: 1;
-  left: 186px;
+  top: -6px;
+  left: 183px;
 }
 
 .close-button__icon--hidden {
@@ -28,7 +27,8 @@
 
 @media (min-width: $tablet-width) {
   .close-button__icon {
-    left: 444px;
+    top: 10px;
+    left: 451px;
   }
 }
 

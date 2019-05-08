@@ -21,8 +21,9 @@
   fill: $dark-grey;
 }
 
-.dev-link:visited {
-  fill: $light-grey;
+.dev-link:active {
+  fill: $dark-grey;
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {

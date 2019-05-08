@@ -4,5 +4,11 @@
 }
 
 .page--padding {
-  padding-top: 221px;
+  padding-top: 254px;
+}
+
+@media (min-width: $tablet-width) {
+  .page--padding {
+    padding-top: 273px;
+  }
 }

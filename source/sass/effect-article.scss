@@ -17,10 +17,12 @@
 
   .effect-article__advertising {
     position: relative;
-    top: 123px;
-    left: 70px;
+    top: 145px;
+    left: 36px;
+    z-index: 1;
     display: inline;
-    padding: 8px 19px;
+    padding: 20px 33px;
+    padding-bottom: 26px;
     font-size: 96px;
     font-weight: 700;
     color: $fuchsia;
@@ -30,24 +32,26 @@
 
   .effect-article__advertising--timer {
     position: relative;
-    left: 39px;
-    top: -102px;
-    width: 240px;
+    left: 21px;
+    top: -77px;
+    z-index: 0;
+    width: 236px;
     height: 281px;
     display: block;
-    opacity: 0.3;
+    fill: $timer-color;
   }
 
   .effect-article__title {
-    margin-bottom: 16px;
-    font-size: 38px;
-    line-height: 51px;
+    margin-top: 71px;
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 37px;
     font-weight: 700;
     color: #000000;
   }
 
   .effect-article__text {
-    margin-top: 0;
+    margin-top: -8px;
     margin-right: 34px;
     font-size: 14px;
     line-height: 24px;
@@ -56,6 +60,7 @@
   }
 
   .effect-article__link {
+    margin-top: -4px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -70,35 +75,31 @@
     margin-top: -586px;
     padding-left: 498px;
     padding-right: 126px;
-    padding-bottom: 100px;
+    padding-bottom: 115px;
     background-color: $light-grey;
   }
 
   .effect-article__advertising {
     top: 169px;
     left: 154px;
-    padding: 18px 38px 35px 40px;
+    padding: 18px 42px 35px 40px;
     border: 18px solid $fuchsia;
     font-size: 120px;
   }
 
   .effect-article__advertising--timer {
-    left: 110px;
-    top: -141px;
-    width: 338px;
+    left: 129px;
+    top: -135px;
+    width: 302px;
     height: 419px;
-    opacity: 0.3;
+    fill: $timer-color;
   }
 
   .effect-article__title {
-    margin-bottom: 24px;
-    padding-top: 134px;
+    margin-bottom: 25px;
+    padding-top: 91px;
     font-size: 30px;
     line-height: 24px;
-  }
-
-  .effect-article__title--line-break {
-    display: none;
   }
 
   .effect-article__text {
@@ -108,7 +109,7 @@
   }
 
   .effect-article__link {
-    padding-top: 14px;
+    padding-top: 17px;
     font-size: 18px;
   }
 }

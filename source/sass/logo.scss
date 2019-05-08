@@ -1,19 +1,113 @@
-.logo {
+.logo--mobile {
   padding-left: 20px;
   padding-top: 22px;
   padding-bottom: 25px;
+  fill: #ffffff;
 }
 
-.logo:hover,
-.logo:focus {
+.logo__footer--mobile {
+  margin-top: 63px;
+  margin-right: 86px;
+  fill: $dark-grey;
+}
+
+.logo__footer--mobile:hover {
   fill: $fuchsia;
 }
 
+.logo__footer--mobile:active {
+  opacity: 0.3;
+}
+
+.logo--mobile:hover,
+.logo--mobile:focus {
+  fill: $fuchsia;
+}
+
+.logo--mobile:active {
+  fill: #ffffff;
+  opacity: 0.3;
+}
+
+.logo--tablet {
+  display: none;
+}
+
+.logo--desktop {
+  display: none;
+}
+
+.logo__footer--desktop {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .logo--mobile {
+    display: none;
+  }
+
+  .logo__footer--mobile {
+    margin-left: 43px;
+  }
+
+  .logo--tablet {
+    display: block;
+    padding-left: 20px;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    fill: #ffffff;
+  }
+
+  .logo--tablet:hover,
+  .logo--tablet:focus {
+    fill: $fuchsia;
+}
+
+  .logo--tablet:active {
+    fill: #ffffff;
+    opacity: 0.3;
+ }
+}
 
 @media (min-width: $desktop-width) {
-  .logo {
+  .logo--tablet {
+    display: none;
+  }
+
+  .logo--desktop {
+    display: block;
     padding-left: 45px;
     padding-top: 28px;
     padding-bottom: 25px;
+    fill: #ffffff;
   }
+
+  .logo--desktop:hover,
+  .logo--desktop:focus {
+    fill: $fuchsia;
+}
+
+  .logo--desktop:active {
+    fill: #ffffff;
+    opacity: 0.3;
+ }
+
+ .logo__footer--mobile {
+   display: none;
+ }
+
+ .logo__footer--desktop {
+   display: block;
+   margin-left: 130px;
+   margin-top: 63px;
+   fill: $dark-grey;
+ }
+
+ .logo__footer--desktop:hover {
+   fill: $fuchsia;
+ }
+
+ .logo__footer--desktop:active {
+   opacity: 0.3;
+ }
 }

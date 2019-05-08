@@ -1,8 +1,8 @@
 .photo-preface-text {
   padding-left: 26px;
-  padding-top: 18px;
+  padding-top: 30px;
   padding-right: 26px;
-  padding-bottom: 55px;
+  padding-bottom: 35px;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
@@ -13,10 +13,11 @@
 
 @media (min-width: $tablet-width) {
   .photo-preface-text {
-    padding-left: 100px;
-    padding-top: 100px;
+    margin-bottom: 0;
+    padding-left: 104px;
+    padding-top: 74px;
     padding-right: 106px;
-    padding-bottom: 85px;
+    padding-bottom: 75px;
     font-size: 18px;
   }
 }
@@ -24,9 +25,9 @@
 @media (min-width: $desktop-width) {
   .photo-preface-text {
     margin-bottom: 0;
-    padding-left: 295px;
-    padding-top: 71px;
-    padding-right: 241px;
+    padding-left: 308px;
+    padding-top: 73px;
+    padding-right: 308px;
     padding-bottom: 88px;
   }
 }

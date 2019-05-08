@@ -1,11 +1,17 @@
 .photos-list{
   @include list-reset;
+  margin-top: 21px;
+}
+
+.photos-list__item {
+  margin-bottom: 22px;
 }
 
 @media (min-width: $tablet-width) {
   .photos-list {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 49px;
     background-color: #ffffff;
   }
 }
@@ -13,6 +19,6 @@
 @media (min-width: $desktop-width) {
   .photos-list {
     margin-left: 110px;
-    margin-top: 37px;
+    margin-top: 53px;
   }
 }

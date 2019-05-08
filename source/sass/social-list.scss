@@ -12,6 +12,10 @@
   fill: $fuchsia;
 }
 
+.social-list__icon--twitter:hover {
+  opacity: 0.3;
+}
+
 .social-list__item--twitter::after {
   content: "";
   position: relative;
