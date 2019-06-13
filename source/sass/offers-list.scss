@@ -166,7 +166,7 @@
     background-position-x: 18px;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url(../img/iphone-screen-1-desktop@2x.png);
-      background-size: 292px 298px;
+      background-size: 292px 300px;
       background-position: 16px 0px;
     }
   }
@@ -185,15 +185,15 @@
   }
 
   .offers-list__item:nth-child(3) {
-    margin-top: 2px;
-    padding-top: 280px;
+    margin-top: -13px;
+    padding-top: 294px;
     background-image: url(../img/iphone-screen-3-desktop@1x.png);
     background-repeat: no-repeat;
-    background-position: 11px -3px;
+    background-position: 10px 13px;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url(../img/iphone-screen-3-desktop@2x.png);
-      background-size: 292px 302px;
-      background-position: 11px -2px;
+      background-size: 292px 300px;
+      background-position: 11px 13px;
     }
   }
 

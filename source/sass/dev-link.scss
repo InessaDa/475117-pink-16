@@ -1,7 +1,6 @@
-.dev-link {
+.dev-link,
+.dev-link__inner-footer {
   position: relative;
-  left: 95px;
-  top: -33px;
   display: block;
   font-size: 14px;
   line-height: 18px;
@@ -9,10 +8,21 @@
   color: $dark-grey;
 }
 
+.dev-link {
+  left: 95px;
+  top: -33px;
+}
+
+.dev-link__inner-footer {
+  height: 25px;
+  left: -163px;
+  top: 143px;
+}
+
 .dev-link__icon {
   position: relative;
-  top: 10px;
-  left: 17px;
+  top: -25px;
+  left: 102px;
   fill: $fuchsia;
 }
 
@@ -28,14 +38,25 @@
 
 @media (min-width: $tablet-width) {
   .dev-link {
-    top: 65px;
-    left: -27px;
+    top: 35px;
+    left: 61px;
+  }
+
+  .dev-link__icon {
+    top: 13px;
+    left: 10px;
+  }
+
+  .dev-link__inner-footer {
+    left: 60px;
+    top: 35px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .dev-link {
-    left: 25px;
+    left: 22px;
+    top: 58px;
     font-size: 18px;
   }
 
@@ -46,5 +67,11 @@
   .dev-link__icon {
     top: 12px;
     left: 10px;
+  }
+
+  .dev-link__inner-footer {
+    left: 24px;
+    top: 61px;
+    font-size: 18px;
   }
 }

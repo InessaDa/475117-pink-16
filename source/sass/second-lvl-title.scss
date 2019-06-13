@@ -1,10 +1,10 @@
-.second-lvl-title {
+.second-lvl-title,
+.second-lvl-title--contest {
   margin: 0;
   margin-top: -5px;
-  padding-left: 4px;
+  padding-left: 8px;
   padding-top: 25px;
-  padding-right: 6px;
-  padding-bottom: 83px;
+  padding-right: 10px;
   font-size: 24px;
   line-height: 30px;
   font-weight: 300;
@@ -18,10 +18,19 @@
   }
 }
 
-@media (min-width: $tablet-width) {
+  .second-lvl-title--contest {
+    padding-bottom: 52px;
+  }
+
   .second-lvl-title {
+    padding-bottom: 83px;
+  }
+
+@media (min-width: $tablet-width) {
+  .second-lvl-title,
+  .second-lvl-title--contest {
     padding-left: 94px;
-    padding-top: 71px;
+    padding-top: 75px;
     padding-right: 92px;
     padding-bottom: 140px;
     font-size: 50px;
@@ -34,7 +43,15 @@
       background-size: 1201px auto;
   }
  }
+
+ .second-lvl-title--contest {
+  padding-left: 76px;
+  padding-top: 74px;
+  padding-right: 75px;
+  padding-bottom: 80px;
 }
+}
+
 @media (min-width: $desktop-width) {
   .second-lvl-title {
     padding-left: 285px;
@@ -51,5 +68,10 @@
       background-position-x: -733px;
       background-position-y: -102px;
     }
+  }
+
+  .second-lvl-title--contest {
+    padding-top: 68px;
+    padding-bottom: 101px;
   }
 }

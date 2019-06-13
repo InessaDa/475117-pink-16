@@ -1,0 +1,120 @@
+.reviews {
+  margin-bottom: 42px;
+}
+
+.reviews__title {
+  margin-top: 43px;
+  margin-bottom: -2px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.reviews__subtitle {
+  display: none;
+}
+
+.reviews__text {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $dark-grey;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding-top: 108px;
+   }
+
+  .reviews__title {
+    order: 1;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .reviews__subtitle {
+    order: 2;
+    margin-top: 14px;
+    padding-left: 245px;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+
+  .reviews__text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: $dark-grey;
+  }
+
+  .reviews__pagination-list {
+    order: 3;
+    margin-top: 31px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews {
+    background-image: url(../img/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: 564px 73px;
+  }
+
+  .reviews__title {
+    margin-top: -32px;
+    font-size: 24px;
+    }
+
+    .reviews__subtitle {
+      margin-top: 9px;
+      padding-left: 489px;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: normal;
+    }
+
+  .reviews__text {
+    margin-left: 256px;
+    margin-top: 28px;
+    margin-right: 255px;
+  }
+
+  .reviews__text::before {
+    content: "";
+    position: relative;
+    top: 76px;
+    left: -126px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icon-review-arrow-left.svg);
+    background-repeat: no-repeat;
+  }
+
+  .reviews__text::after {
+    content: "";
+    position: relative;
+    top: -63px;
+    left: 793px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icon-review-arrow-right.svg);
+    background-repeat: no-repeat;
+  }
+
+  .pagination-list .reviews__pagination-list {
+    display: none;
+  }
+}

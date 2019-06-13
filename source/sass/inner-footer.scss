@@ -1,3 +1,10 @@
 .inner-footer__title {
   font-size: 0;
 }
+
+
+@media (min-width: $desktop-width) {
+  .inner-foote {
+    margin-bottom: 72px;
+  }
+}

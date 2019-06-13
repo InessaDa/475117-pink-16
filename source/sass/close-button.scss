@@ -1,5 +1,6 @@
 .close-button {
   position: relative;
+  padding-left: 176px;
   font-size: 0;
   outline: none;
 }
@@ -7,7 +8,7 @@
 .close-button__icon {
   position: relative;
   top: -6px;
-  left: 183px;
+  left: -19px;
 }
 
 .close-button__icon--hidden {
@@ -26,13 +27,22 @@
 }
 
 @media (min-width: $tablet-width) {
+  .close-button {
+    padding-left: 444px;
+  }
+
   .close-button__icon {
     top: 10px;
-    left: 451px;
+    left: 7px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .close-button {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
   .close-button__icon {
     display: none;
   }

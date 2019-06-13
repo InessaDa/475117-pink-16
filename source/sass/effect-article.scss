@@ -11,13 +11,13 @@
   .effect-article {
     display: flex;
     flex-direction: column;
-    margin-top: -388px;
+    margin-top: -367px;
     padding-left: 330px;
   }
 
   .effect-article__advertising {
     position: relative;
-    top: 145px;
+    top: 155px;
     left: 36px;
     z-index: 1;
     display: inline;
@@ -33,7 +33,7 @@
   .effect-article__advertising--timer {
     position: relative;
     left: 21px;
-    top: -77px;
+    top: -56px;
     z-index: 0;
     width: 236px;
     height: 281px;
@@ -72,7 +72,7 @@
 
 @media (min-width: $desktop-width) {
   .effect-article {
-    margin-top: -586px;
+    margin-top: -561px;
     padding-left: 498px;
     padding-right: 126px;
     padding-bottom: 115px;
@@ -80,7 +80,7 @@
   }
 
   .effect-article__advertising {
-    top: 169px;
+    top: 182px;
     left: 154px;
     padding: 18px 42px 35px 40px;
     border: 18px solid $fuchsia;
@@ -89,7 +89,7 @@
 
   .effect-article__advertising--timer {
     left: 129px;
-    top: -135px;
+    top: -113px;
     width: 302px;
     height: 419px;
     fill: $timer-color;

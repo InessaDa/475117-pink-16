@@ -11,11 +11,13 @@
   fill: $dark-grey;
 }
 
-.logo__footer--mobile:hover {
+.logo__footer--mobile:hover,
+.logo__inner-footer--mobile:hover {
   fill: $fuchsia;
 }
 
-.logo__footer--mobile:active {
+.logo__footer--mobile:active,
+.logo__inner-footer--mobile:active {
   opacity: 0.3;
 }
 
@@ -37,7 +39,16 @@
   display: none;
 }
 
-.logo__footer--desktop {
+.logo__inner-footer--mobile {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 88px;
+  left: 85px;
+}
+
+.logo__footer--desktop,
+.logo__inner-footer--desktop {
   display: none;
 }
 
@@ -47,7 +58,8 @@
   }
 
   .logo__footer--mobile {
-    margin-left: 43px;
+    margin-left: 21px;
+    margin-top: 34px;
   }
 
   .logo--tablet {
@@ -66,6 +78,13 @@
   .logo--tablet:active {
     fill: #ffffff;
     opacity: 0.3;
+ }
+
+ .logo__inner-footer--mobile {
+    position: relative;
+    margin-top: 118px;
+    margin-left: -66px;
+    margin-right: 170px;
  }
 }
 
@@ -92,22 +111,31 @@
     opacity: 0.3;
  }
 
- .logo__footer--mobile {
+ .logo__footer--mobile,
+ .logo__inner-footer--mobile {
    display: none;
  }
 
- .logo__footer--desktop {
+ .logo__footer--desktop,
+ .logo__inner-footer--desktop {
    display: block;
-   margin-left: 130px;
-   margin-top: 63px;
+   margin-left: 177px;
+   margin-top: 57px;
    fill: $dark-grey;
  }
 
- .logo__footer--desktop:hover {
+ .logo__inner-footer--desktop {
+  margin-left: 131px;
+  margin-top: 60px;
+ }
+
+ .logo__footer--desktop:hover,
+ .logo__inner-footer--desktop:hover {
    fill: $fuchsia;
  }
 
- .logo__footer--desktop:active {
+ .logo__footer--desktop:active,
+ .logo__inner-footer--desktop:active {
    opacity: 0.3;
  }
 }

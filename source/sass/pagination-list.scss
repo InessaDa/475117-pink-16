@@ -1,0 +1,29 @@
+.pagination-list {
+  @include list-reset;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 37px;
+}
+
+.pagination-list__item {
+  margin-right: 19px;
+  width: 6px;
+  height: 6px;
+  background-color: $pagination-grey;
+  border-radius: 50%;
+}
+
+.pagination-list__item--active {
+  background-color: #ffffff;
+  border: 2px solid $dark-grey;
+  border-radius: 50%;
+}
+
+@media (min-width: $desktop-width) {
+  .pagination-list {
+    display: none;
+  }
+}

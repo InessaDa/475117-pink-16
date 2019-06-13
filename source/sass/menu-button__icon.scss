@@ -1,7 +1,7 @@
 .menu-button__icon {
     position: relative;
     top: -4px;
-    left: 150px;
+    left: -76px;
 }
 
 .menu-button__icon--hidden {
@@ -22,7 +22,7 @@
 
 @media (min-width: $tablet-width) {
   .menu-button__icon {
-    left: 414px;
+    left: -79px;
   }
 }
 

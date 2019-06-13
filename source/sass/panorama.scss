@@ -56,11 +56,24 @@
 }
 
 .panorama__description--likes {
+  position: relative;
   padding-left: 50px;
+}
+
+.panorama__description--likes-icon {
+  position: absolute;
+  left: 18px;
+  top: 15px;
 }
 
 
 @media (min-width: $tablet-width) {
+  .panorama__image {
+    display: block;
+    max-width: 660px;
+    height: 510px;
+  }
+
   .panorama__flag {
     top: -446px;
     left: 478px;
@@ -77,12 +90,17 @@
   }
 
   .panorama__description--text {
+    margin-bottom: -27px;
     padding-left: 28px;
   }
 
   .panorama__description--likes {
-    top: 17px;
+    top: -55px;
     left: 422px;
+  }
+
+  .panorama__description--likes-icon {
+    left: 156px;
   }
 }
 
@@ -90,6 +108,12 @@
   .panorama {
     padding-top: 0;
   }
+
+  .panorama__image {
+    max-width: 1200px;
+    height: 505px;
+  }
+
   .panorama__flag {
     top: -447px;
     left: 799px;
@@ -105,7 +129,7 @@
     min-height: 95px;
   }
   .panorama__description--likes {
-    top: 18px;
-    left: 739px;
+    top: -28px;
+    left: 741px;
   }
 }
