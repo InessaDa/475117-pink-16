@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="body">
       <svg style="display:none">
@@ -161,19 +161,23 @@
         </svg>
         </a>
       <button type="button" class="button close-button">
-      <svg class="close-button__icon" width="23.867px" height="23.867px">
+        <div class="close-button__icon">
+      <svg width="23.867px" height="23.867px">
          <use xlink:href="#icon__close-button"></use>
       </svg>
-      <svg class="menu-button__icon" width="49.945px" height="24.007px">
+    </div>
+    <div class="menu-button__icon" >
+      <svg width="49.945px" height="24.007px">
         <use xlink:href="#icon__menu-button"></use>
       </svg>
+    </div>
       Кнопка закрытия/открытия основного меню
       </button>
       </div>
       <nav class="navigation header-navigation">
           <ul class="navigation-list">
             <li class="navigation-list__item">
-              <a href="#" class="link navigation-link">Главная</a>
+              <a href="#" class="link navigation-link navigation-link--active">Главная</a>
             </li>
             <li class="navigation-list__item">
               <a href="photo.html" class="link navigation-link">Фотографии</a>
@@ -252,10 +256,10 @@
       <h3 class="reviews__title">Николай Петров</h3>
       <p class="reviews__subtitle">25 лет, водитель трамвая</p>
       <p class="reviews__text">&#171Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной Фотографии!&#187</p>
-      <ul class="pagination-list reviews__pagination-list">
-        <li class="pagination-list__item pagination-list__item--active"></li>
-        <li class="pagination-list__item"></li>
-        <li class="pagination-list__item"></li>
+      <ul class="reviews__pagination-list">
+        <li class="reviews__pagination-list--first-item"><a href="#"></a></li>
+        <li class="reviews__pagination-list--second-item"><a href="#"></a></li>
+        <li class="reviews__pagination-list--fird-item"><a href="#"></a></li>
       </ul>
     </div>
     <div class="tariff">
@@ -334,7 +338,7 @@
       </table>
       <ul class="pagination-list tariff__pagination-list">
           <li class="pagination-list__item"></li>
-          <li class="pagination-list__item pagination-list__item--active"></li>
+          <li class="pagination-list__item"></li>
           <li class="pagination-list__item"></li>
         </ul>
     </div>

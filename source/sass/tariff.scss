@@ -12,7 +12,7 @@
 
 .tariff {
   position: relative;
-  padding-bottom: 44px;
+  padding-bottom: 98px;
   background-color: $light-grey;
 }
 
@@ -24,7 +24,7 @@
 
 .tariff__hit-flag {
     position: absolute;
-    top: 71px;
+    top: 87px;
     left: 31px;
     z-index: 1;
     font-size: 14px;
@@ -36,15 +36,14 @@
 
 .tariff__hit-flag--bg-mobile {
   position: relative;
-  top: 75px;
+  top: 90px;
   left: 18px;
   z-index: 0;
 }
 
 .tariff__table {
   margin-left: 20px;
-  margin-right: 18px;
-  padding-top: 12px;
+  margin-top: 14px;
   border-collapse: collapse;
 }
 
@@ -76,9 +75,10 @@
 }
 
 .tariff__option--text + .tariff__name--standart {
-    padding-left: 22px;
-    padding-top: 11px;
-    padding-bottom: 6px;
+  padding-left: 23px;
+  padding-top: 11px;
+  padding-right: 85px;
+  padding-bottom: 8px;
 }
 
 .tariff__cost {
@@ -110,9 +110,6 @@
   fill: $red;
 }
 
-.tariff__pagination-list {
-padding-top: 8px;
-}
 
 @media (min-width: $tablet-width) {
   .tariff {
@@ -233,7 +230,7 @@ padding-top: 8px;
 
   .tariff__triangle {
     width: 1200px;
-    top: -5px;
+    top: 0;
   }
 
   .tariff__table {
@@ -300,5 +297,9 @@ padding-top: 8px;
   .tariff__no-icon {
     left: 82px;
     top: 12px;
+  }
+
+  .tariff__pagination-list {
+    display: none;
   }
 }

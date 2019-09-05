@@ -1,9 +1,10 @@
 .stores {
   position: relative;
-  top: 390px;
+  top: 364px;
+  z-index: -1;
   margin: 0;
   padding: 0;
-  padding-bottom: 29px;
+  padding-bottom: 25px;
   margin-top: -5px;
   background-color: $dark-grey;
 }
@@ -15,7 +16,7 @@
 .stores__button {
   display: inline-block;
   margin-left: 19px;
-  margin-top: 28px;
+  margin-top: 55px;
   margin-right: 17px;
   padding-left: 37px;
   padding-top: 15px;

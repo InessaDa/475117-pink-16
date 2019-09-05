@@ -7,22 +7,29 @@
   outline: none;
 }
 
+
 .navigation-link:hover,
 .navigation-link:focus {
   color: $fuchsia;
 }
 
-.navigation-link:active {
-  color: #ffffff;
-  text-decoration: underline;
-  text-decoration-color: #ffffff;
-}
-
 @media (min-width: $desktop-width) {
   .navigation-link {
+    padding-bottom: 9px;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
     text-transform: none;
   }
+
+  .navigation-link--active {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+  }
+
+  .navigation-link--active:hover,
+  .navigation-link--active:focus {
+    border-bottom: 3px solid $fuchsia;
+  }
+
 }

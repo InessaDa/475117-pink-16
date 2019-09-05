@@ -49,6 +49,7 @@
 .panorama__description--text {
   margin: 0;
   padding-left: 17px;
+  padding-bottom: 28px;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -57,13 +58,22 @@
 
 .panorama__description--likes {
   position: relative;
-  padding-left: 50px;
+  top: -19px;
+  left: 50px;
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $fuchsia;
 }
 
 .panorama__description--likes-icon {
   position: absolute;
-  left: 18px;
-  top: 15px;
+  left: -32px;
+  top: 6px;
+  fill: $fuchsia;
 }
 
 
@@ -95,12 +105,12 @@
   }
 
   .panorama__description--likes {
-    top: -55px;
-    left: 422px;
+    top: -74px;
+    left: 472px;
   }
 
   .panorama__description--likes-icon {
-    left: 156px;
+    left: 106px;
   }
 }
 
@@ -129,7 +139,12 @@
     min-height: 95px;
   }
   .panorama__description--likes {
-    top: -28px;
-    left: 741px;
+    top: -47px;
+    left: 789px;
+  }
+
+  .panorama__description--likes-icon {
+    left: 107px;
+    top: 3px;
   }
 }
